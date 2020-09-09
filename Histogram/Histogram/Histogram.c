@@ -6,6 +6,23 @@
 #include <stdint.h>
 #include <assert.h>
 
+int largest(int arr[], int n)
+{
+	int i;
+
+	// Initialize maximum element 
+	int max = arr[0];
+
+	// Traverse array elements  
+	// from second and compare 
+	// every element with current max  
+	for (i = 1; i < n; i++)
+		if (arr[i] > max)
+			max = arr[i];
+
+	return max;
+}
+
 int main()
 {
 	printf("hello world\n");
@@ -38,6 +55,10 @@ int main()
 	}
 
 	fclose(f);
+
+	int n = sizeof(histogram) / sizeof(histogram[0]);
+	int result = largest(histogram, n);
+	printf("The highest count is %i", result);
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
