@@ -1,0 +1,4 @@
+﻿  Development.c
+C:\Users\kenha\Documents\GIT\HFIE2020HAK\Development\Development\Development.c(21,11): warning C4101: 'y': unreferenced local variable
+C:\Users\kenha\Documents\GIT\HFIE2020HAK\Development\Development\Development.c(21,8): warning C4101: 'x': unreferenced local variable
+  Development.vcxproj -> C:\Users\kenha\Documents\GIT\HFIE2020HAK\Development\Development\Debug\Development.exe
