@@ -1,0 +1,4 @@
+﻿  Development.c
+C:\Users\kenha\Documents\GIT\HFIE2020HAK\Development\Development\Development.c(15,10): warning C4477: 'scanf_s' : format string '%f' requires an argument of type 'float *', but variadic argument 1 has type 'double *'
+C:\Users\kenha\Documents\GIT\HFIE2020HAK\Development\Development\Development.c(15,10): message : consider using '%lf' in the format string
+  Development.vcxproj -> C:\Users\kenha\Documents\GIT\HFIE2020HAK\Development\Development\Debug\Development.exe
